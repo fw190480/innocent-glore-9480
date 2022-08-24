@@ -3,51 +3,64 @@
   margin: 0;
   padding: 0;
 } */
-.navbar{
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 12px 25px;
 }
-.navbar h2{
+
+.navbar h2 {
   color: #e5b95f;
   font-weight: bold;
   font-size: 18px;
   text-transform: uppercase;
   /* line-height: 25px; */
 }
-.navbar img{
+
+.navbar img {
   width: auto;
   height: 50px;
 }
 
+.navbar i {
+  margin: 0 16px;
+  color: #e5b95f;
+  cursor: pointer;
+}
+
+
 /* main image slider on the top customize with slider js library */
-.top-image-slider .swiper-button-next{
+.top-image-slider .swiper-button-next {
   padding: 25px 25px;
   background-color: white;
   opacity: .6;
   border-radius: 5px;
   /* color: black; */
 }
-.top-image-slider .swiper-button-prev{
+
+.top-image-slider .swiper-button-prev {
   opacity: .5;
   padding: 25px 25px;
   background-color: white;
   border-radius: 5px;
-  
+
 }
-.top-image-slider .swiper-button-next:hover{
-  background-color: burlywood;
-}
-.top-image-slider .swiper-button-prev:hover{
+
+.top-image-slider .swiper-button-next:hover {
   background-color: burlywood;
 }
 
-.top-image-slider .swiper-slide img{
+.top-image-slider .swiper-button-prev:hover {
+  background-color: burlywood;
+}
+
+.top-image-slider .swiper-slide img {
   width: 100%;
   height: 27rem;
 }
-.swiper-pagination{
+
+.swiper-pagination {
   background-color: pink;
   height: 10px;
 }
