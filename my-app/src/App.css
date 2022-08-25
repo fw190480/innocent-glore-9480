@@ -1,38 +1,66 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* navbar styling */
+/* *{
+  margin: 0;
+  padding: 0;
+} */
+.navbar {
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 12px 25px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar h2 {
+  color: #e5b95f;
+  font-weight: bold;
+  font-size: 18px;
+  text-transform: uppercase;
+  /* line-height: 25px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar img {
+  width: auto;
+  height: 50px;
+}
+
+.navbar i {
+  margin: 0 16px;
+  color: #e5b95f;
+  cursor: pointer;
+}
+
+
+/* main image slider on the top customize with slider js library */
+.top-image-slider .swiper-button-next {
+  padding: 25px 25px;
+  background-color: white;
+  opacity: .6;
+  border-radius: 5px;
+  /* color: black; */
+}
+
+.top-image-slider .swiper-button-prev {
+  opacity: .5;
+  padding: 25px 25px;
+  background-color: white;
+  border-radius: 5px;
+
+}
+
+.top-image-slider .swiper-button-next:hover {
+  background-color: burlywood;
+}
+
+.top-image-slider .swiper-button-prev:hover {
+  background-color: burlywood;
+}
+
+.top-image-slider .swiper-slide img {
+  width: 100%;
+  height: 27rem;
+}
+
+.swiper-pagination {
+  background-color: pink;
+  height: 10px;
 }
