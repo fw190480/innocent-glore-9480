@@ -68,7 +68,7 @@
 .section-1{
   margin: 20px 0;
 }
-.section-1 h1 , .subscription h1{
+.section-1 h1 , .subscription h1, .prev-beg h1{
   font-size: 2.5rem;
   text-align: center;
   position: relative;
@@ -93,4 +93,54 @@
 }
 .section-1 img{
   border-radius: 30px;
+}
+/* styling prev-beg */
+.prev-beg{
+  /* border: 1px solid blue; */
+  margin: 4rem;
+  
+}
+.prev-beg h1{
+  margin-bottom: 4rem;
+}
+.prev-beg h3{
+  color: #999999;
+  font-size: 18px;
+  font-weight: bold;
+}
+.gossip{
+  margin-bottom: 3rem;
+}
+.gossip h1{
+  text-align: center;
+  font-size: 21px;
+  font-weight: 500;
+  margin: 20px 0;
+  margin-bottom: 2rem;
+}
+.gossip .flex-item{
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+}
+.gossip img{
+  /* border: 1px solid black; */
+  height: 168px;
+  width: 168px;
+}
+/* last slider styling */
+.last-slider{
+  height: 190px;
+  background-color: #e5b95f;
+  margin-bottom: 3rem;
+}
+.last-slider img{
+  width: 100px;
+  /* height: 90px; */
+  border: 1px solid black;
+  border-radius: 8px;
+}
+.last-slider>div:first-child{
+  width: 75vw;
+  margin: auto;
+  padding: 3rem;
 }
