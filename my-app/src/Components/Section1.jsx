@@ -3,12 +3,13 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Pagination } from "swiper";
+import Heading from './Heading';
 
 
 export default function Section1() {
     return (
         <>
-            <h1 className='section1-heading'>WHAT'S IN THE BEG</h1>
+            <Heading title = "WHAT'S IN THE BEG" />
             <Swiper
                 slidesPerView={4}
                 spaceBetween={20}
