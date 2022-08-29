@@ -11,6 +11,8 @@ export default function Section1() {
             <Swiper
                 slidesPerView={4}
                 spaceBetween={20}
+                loop={true}
+                loopFillGroupWithBlank={true}
                 pagination={
                     { clickable: true }
                 }

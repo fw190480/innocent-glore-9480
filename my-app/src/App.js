@@ -11,6 +11,7 @@ import PreviousBeg from './Components/PreviousBeg';
 import GossipCorner from './Components/GossipCorner';
 import LastSlider from './Components/LastSlider';
 import Footer from './Components/Footer';
+import LastFooter from './Components/LastFooter';
 
 function App() {
   return (
@@ -36,6 +37,9 @@ function App() {
       </div>
       <div className='footer'>
       <Footer/>
+      </div>
+      <div className='footer-last-content'>
+      <LastFooter />
       </div>
     </div>
   );

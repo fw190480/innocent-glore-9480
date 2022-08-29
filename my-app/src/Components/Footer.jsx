@@ -1,4 +1,4 @@
-import { Grid, GridItem, Heading,Text,Center } from '@chakra-ui/react'
+import { Grid, GridItem, Heading,Text,Center,Input,Button } from '@chakra-ui/react'
 import React from 'react'
 
 export default function Footer() {
@@ -31,6 +31,9 @@ export default function Footer() {
         <GridItem h='390px'>
             <Heading as='h3' size='md'>NEWSLETTER</Heading>
             <Text as='h5'size='xm' fontSize='14px' color='#7d7d7d' mt='4' >Signup for the latest offers, updates and news</Text>
+            <Input mt='2px' w='245' placeholder='Your email address' />
+            <Button ml='2rem' colorScheme='black' bg='#E5B95F' variant='outline' color='white'>Button</Button>
+            <Text as='h5'size='xm' fontSize='14px' color='#7d7d7d' mt='4' >Don't worry we don't spam</Text>
 
         </GridItem>
       </Grid>
